@@ -1,0 +1,16 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -320px; /* Панель скрыта */
+    width: 320px;
+    height: 100%;
+    background: #ffffff;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    padding: 20px;
+    overflow-y: auto;
+    z-index: 1000; /* Поверх контента */
+}
+.sidebar.open {
+    left: 0; /* Открываем панель */
+}

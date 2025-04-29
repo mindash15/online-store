@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.filter-panel {
+    position: fixed;
+    left: -300px;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background: #fff;
+    box-shadow: 2px 0px 10px rgba(0,0,0,0.2);
+    padding: 20px;
+    transition: left 0.3s;
+}
+
+.filter-panel h3 {
+    margin-top: 20px;
+}
+
+.size-filter button {
+    padding: 8px 12px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background: #f9f9f9;
+}
+
+.size-filter button.selected {
+    background: #000;
+    color: #fff;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+}
+
+.product-card {
+    width: 200px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+#openFilter {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
